@@ -9,7 +9,7 @@ description = "记录了 Linux 下  Memcached 的安装、命令以及 PHP Memca
 tags = ["linux", "php"]
 +++
 
-## 为什么要学习 Memcahe
+## 为什么要学习 Memcahe,工作中用到在学呀
 
 首先我们要知道 Memcache 是做什么的，为什么需要学习 Memcache
 
