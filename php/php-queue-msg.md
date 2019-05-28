@@ -5,7 +5,7 @@ github_url = "zunler.top"
 head_img = ""
 created_at = 2017-04-19T02:19:36
 updated_at = 2017-04-19T02:19:36
-description = "记录了下 Linux 的 SQLite 的安装和在 Linux 及 PHP 中的简单应用。"
+description = "记录了php中异步进程用消息队列通讯的方式"
 tags = ["linux", "php"]
 +++
 
@@ -19,4 +19,4 @@ tags = ["linux", "php"]
 
 - 爬虫爬取
 
-    这是
+    通知更新
