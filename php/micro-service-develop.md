@@ -6,7 +6,7 @@ head_img = ""
 created_at = 2019-05-28T21:28:36
 updated_at = 2019-05-28T21:26:36
 description = "项目可以分开部署，依赖通过http方式通信"
-tags = ["linux", "php"， "wrk", "ab", "jmeter"]
+tags = ["linux", "php"]
 +++
 
 ## 不同项目依赖一个数据提供中心datapai

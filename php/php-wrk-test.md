@@ -6,7 +6,7 @@ head_img = ""
 created_at = 2019-05-28T21:28:36
 updated_at = 2019-05-28T21:26:36
 description = "压测的过程，每个接口不能超过100毫秒"
-tags = ["linux", "php"， "wrk", "ab", "jmeter"]
+tags = ["linux", "php"]
 +++
 
 ## DOCKER中debug中php
