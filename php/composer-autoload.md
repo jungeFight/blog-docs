@@ -11,19 +11,19 @@ tags = ["linux", "php"]
 
 ## composer自动加载原理
 
-- 1、先初始加载两类文件：
+- 先初始加载两类文件：
    
-   autoload.php加载
+   1. autoload.php加载
 
-   autoload_real.php加载
+   2. autoload_real.php加载
    
-   ClassLoader和autoload_static文件
+   3. ClassLoader和autoload_static文件
 
-+ 2、classmap.php，files.php,namespaces.php返回的数组是file、psr4、classMap对应文件绝对地址的映射；
++ classmap.php，files.php,namespaces.php返回的数组是file、psr4、classMap对应文件绝对地址的映射；
 
-* 3、autoload_static.php中通过dump-autoload会生成file、psr4、classMap对应的文件映射。$loader实现文件自动加载；
+* autoload_static.php中通过dump-autoload会生成file、psr4、classMap对应的文件映射。$loader实现文件自动加载；
 
-* 4、实现自动加载，spl_autoload_register中注册的多个文件加载函数根据生成的文件绝对路径对应的数组加载对应用到的文件；
+* 实现自动加载，spl_autoload_register中注册的多个文件加载函数根据生成的文件绝对路径对应的数组加载对应用到的文件；
 
 
 
